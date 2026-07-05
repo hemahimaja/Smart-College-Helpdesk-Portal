@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="367049ad83b54bd4b6cfb1d6feaad30f" label="Feedback" max_length="40" name="x_2052220_smart_0_feedback" type="collection">
+        <element choice="3" label="Rating" max_length="40" name="rating" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Very Good" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Excellent" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Complaint" max_length="32" name="complaint" reference="x_2052220_smart_0_complaint" type="reference"/>
+        <index name="index">
+            <element name="complaint"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Automatically notifies the assigned user when a new complaint is created.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>complaint_notification</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Complaint Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cb72e7283fdc318b6cfb1d6feaad30a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Complaint Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Smart College Helpdesk Portal" source="x_2052220_smart_0">c46173c983bd87d4b6cfb1d6feaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+        <sys_update_name>sys_hub_flow_9cb72e7283fdc318b6cfb1d6feaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:12</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>73c762b283fdc318b6cfb1d6feaad3e5</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9cb72e7283fdc318b6cfb1d6feaad30a^sys_idNOT IN58b72e7283fdc318b6cfb1d6feaad30f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9cb72e7283fdc318b6cfb1d6feaad30a</id>
+        <name>Complaint Notification</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:07</sys_created_on>
+        <sys_id>58b72e7283fdc318b6cfb1d6feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=58b72e7283fdc318b6cfb1d6feaad30f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9cb72e7283fdc318b6cfb1d6feaad30a^sys_idNOT IN94b72e7283fdc318b6cfb1d6feaad31b,98b72e7283fdc318b6cfb1d6feaad324"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Complaint Notification">9cb72e7283fdc318b6cfb1d6feaad30a</model>
+        <model_id>9cb72e7283fdc318b6cfb1d6feaad30a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9cb72e7283fdc318b6cfb1d6feaad30a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:08</sys_created_on>
+        <sys_id>94b72e7283fdc318b6cfb1d6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=94b72e7283fdc318b6cfb1d6feaad31b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Complaint Notification">9cb72e7283fdc318b6cfb1d6feaad30a</model>
+        <model_id>9cb72e7283fdc318b6cfb1d6feaad30a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9cb72e7283fdc318b6cfb1d6feaad30a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:08</sys_created_on>
+        <sys_id>98b72e7283fdc318b6cfb1d6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98b72e7283fdc318b6cfb1d6feaad324"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9cb72e7283fdc318b6cfb1d6feaad30a^sys_idNOT IN2cb72e7283fdc318b6cfb1d6feaad356"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Complaint Notification">9cb72e7283fdc318b6cfb1d6feaad30a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:08</sys_created_on>
+        <sys_id>2cb72e7283fdc318b6cfb1d6feaad356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:08</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VY2W7jNhT9FUFPLZACWmzLytvUTtEAaaZ1PO1DkBIURdrCyJQrUUo8Qf69l9osa3G8JO3YeQniS4q85/Dchbx/VkXozWY0vOaRwJzQu1V07aqXKh7YmAyGtmX1TE3XNVOnpmOSQc/pY9vGpnqh+tihPkydYsen8NvjgoYc+9PVkoJZSDPieCHHFpi7WAThSr0UYUwvVBYGiyldLH0sYDLDfgTGIHRpqF7qF2r6Wb4GfJ5gP5a/n5Ch9Q3D0FC0wKFAGiKBXAO2hlmuF8H/qz/zyWBZ4hAWEnLR59K/G49/zYbJ3PPdkHL18v4B/Je4CSPYNqhGTN2EfTRj2NOdgenohmtiqmktuGu+ihb40nZT/Uy5zQbWiOmToNylbklGg7KQYvcz91fljLmEnQJZ4KfI+wbbDjU5j1EARXIOyp8o5yczszEW+A5WJiIOacFH4BEaZXS4lOHYF6OqLZvweSm8gGefZKizrwM/XvDbjA21XKByHHEETtClxCk9z2Gwu3nwOCm8/MXjKSX5oB8Q7Je/sAC5OrGQ/jyrzPPhRFHGdBTEYQp5cjX6PBmjvz5NR79eTdDk6m46uR5Nr8bqy4UaraKRj6No7SXQg/6J5R6Zz7l3KAMoPyGhtxSfiPCSQqkvF28RN6OAu17KZCN2SDEUVX2qiKwijoLFbQGlaaVMSWXXIqz+vvqjGT6Zcf8IGgwwdinuiCCHdTDQ4p5oIaMaSaPqQBXqtljKLbsEU0/TTimc8sR6aDQtApf646rWMoUjjy9jISl+xFxESAQIuy6qnIqcCj7tH14Z2veMsTDmsBUqBdGMtPQIysO68SKAfg+5peA5dUYecKG6ScyVAJQDfxQSh0CzUIqwZNcLPMuRs9+L0EnpzfWd4BChBQKi0Dx20AbHyLKHtj7oCh2LbDCYBq8Ukqo+vMhzpz4loiJ69iWq/vrNiyKPzyr0lhjT42tALNFB8CgFgxnU6LSwPhyTMJsSSmrSqCXObQLZP53qOmMOZYZmSZZA7A7TNUvrY+aamkaMrWLvhCBq6t9Iq4XxXVLq2yTU5xL0NrbrB1UAkuL399F6shko+TrGS1te/35cq5UXc6/6Uoo7M4931/gbd3nYTWTydw8vM+9eYZgfPEJaO6C6OJh8nYVBzN16/pVrKh5X1jOUH/Kz+PG0sm+10rAgpNvxbs44HZRH15i1iIqQxnzVrC6Zcf86YjLdsWmPalA+TKgcTt+2HYINxqyBRQ29U9KtLp5X/Xgl1pK2YO1K2K06Ttrkv0cV+f8dPKqW5EJurSTZ2MerGY9zyhHADpEvq0KjdMx8z6XF2HGZpbFVsr5DvsWbGRvapK9bFrEgxUJqYT3qYL1nAG5rYA77ryHf5qpoYaOabG4y039y+5dFRvrWkXS+ZEPfwUvARwmfiAohS/D+fReH61D6Dc7cqzQjUhdKmiiDULkN+E/X63nKHYWinz5OnVBrUm3AdgEthaycFWonEPNGwwlIfwb7BlJ5x+o484/25lGLsGSTypY3j0MIPeA9hPaGfZuZ7cWG2dvzRDe+8+lod0xgSWcqbOscd00QSWueKTvJei96gGRqQsyXNl/poj8uKUd17kW0dz4CHeLsB+1W0rb2mJZFektRwKqVbBwoMKDAJorHlNxb6irOShFzCsfjw3UPNlTk7idWwqoVvIm8DL6zxp1djxuNC5iV/CpyQsDepiepxdHW17IWvvZvOahr4X7f7Ljf2vWnszYnX8FwPs3H3vkoaUtvW4vtfuvW12wttxV5bMppx+7ijFG/28Nfixcn0xg8/AtUvl3dOScAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9cb72e7283fdc318b6cfb1d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:08</sys_created_on>
+        <sys_id>1cb72e7283fdc318b6cfb1d6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart College Helpdesk Portal" source="x_2052220_smart_0">c46173c983bd87d4b6cfb1d6feaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9cb72e7283fdc318b6cfb1d6feaad30a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 14:18:08</sys_created_on>
+        <sys_id>d4b72e7283fdc318b6cfb1d6feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Smart College Helpdesk Portal" source="x_2052220_smart_0">c46173c983bd87d4b6cfb1d6feaad39c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 14:18:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9cb72e7283fdc318b6cfb1d6feaad30a"/>
+</record_update>

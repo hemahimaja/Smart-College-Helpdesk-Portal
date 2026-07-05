@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6ef2f38d83bd87d4b6cfb1d6feaad396" label="Complaint" max_length="40" name="x_2052220_smart_0_complaint" type="collection">
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="html"/>
+        <element label="Category" max_length="32" name="category" reference="x_2052220_smart_0_complaint_category" type="reference"/>
+        <element label="Student ID" max_length="40" name="student_id" type="string"/>
+        <element label="Phone Number" max_length="15" name="phone_number" type="string"/>
+        <element label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="on_hold"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Resolved" sequence="4" value="resolved"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Student Name" max_length="100" name="student_name" type="string"/>
+        <element label="Resolution Date" max_length="40" name="resolution_date" type="glide_date_time"/>
+        <element label="Department" max_length="32" name="department" reference="x_2052220_smart_0_department" type="reference"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="category"/>
+        </index>
+        <index name="index3">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

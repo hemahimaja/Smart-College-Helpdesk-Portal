@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6b6338583fd87d4b6cfb1d6feaad362" label="Department" max_length="40" name="x_2052220_smart_0_department" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Department Head" max_length="40" name="department_head" type="string"/>
+        <element display="true" label="Department Name" max_length="40" name="department_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="string"/>
+    </element>
+</database>

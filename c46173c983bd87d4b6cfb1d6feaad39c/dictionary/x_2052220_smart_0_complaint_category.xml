@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="254001ad83b54bd4b6cfb1d6feaad365" label="Complaint Category" max_length="40" name="x_2052220_smart_0_complaint_category" type="collection">
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element display="true" label="Category Name" max_length="40" name="category_name" type="string"/>
+    </element>
+</database>

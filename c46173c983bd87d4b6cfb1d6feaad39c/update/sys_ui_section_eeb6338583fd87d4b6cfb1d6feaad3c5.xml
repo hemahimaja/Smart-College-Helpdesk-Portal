@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="eeb6338583fd87d4b6cfb1d6feaad3c5" sys_domain="global" table="x_2052220_smart_0_department" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-30 13:51:27</sys_created_on>
+            <sys_id>aa3b312183bd4bd4b6cfb1d6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2052220_smart_0_department" sys_domain="global" view="Default view">eeb6338583fd87d4b6cfb1d6feaad3c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-30 13:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department_head</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-30 13:51:27</sys_created_on>
+            <sys_id>2a3b312183bd4bd4b6cfb1d6feaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2052220_smart_0_department" sys_domain="global" view="Default view">eeb6338583fd87d4b6cfb1d6feaad3c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-30 13:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-30 13:51:27</sys_created_on>
+            <sys_id>a63b312183bd4bd4b6cfb1d6feaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2052220_smart_0_department" sys_domain="global" view="Default view">eeb6338583fd87d4b6cfb1d6feaad3c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-30 13:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-30 13:51:27</sys_created_on>
+            <sys_id>263b312183bd4bd4b6cfb1d6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2052220_smart_0_department" sys_domain="global" view="Default view">eeb6338583fd87d4b6cfb1d6feaad3c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-30 13:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-30 13:51:27</sys_created_on>
+            <sys_id>a23b312183bd4bd4b6cfb1d6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_2052220_smart_0_department" sys_domain="global" view="Default view">eeb6338583fd87d4b6cfb1d6feaad3c5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-30 13:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_2052220_smart_0_department</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 09:34:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeb6338583fd87d4b6cfb1d6feaad3c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2052220_smart_0_department</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Smart College Helpdesk Portal" source="x_2052220_smart_0">c46173c983bd87d4b6cfb1d6feaad39c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Smart College Helpdesk Portal">c46173c983bd87d4b6cfb1d6feaad39c</sys_scope>
+            <sys_update_name>sys_ui_section_eeb6338583fd87d4b6cfb1d6feaad3c5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 09:34:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
